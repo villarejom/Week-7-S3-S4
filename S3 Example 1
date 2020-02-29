@@ -1,0 +1,30 @@
+install.packages("pryr")
+# Load Data File 
+data("HairEyeColor")
+> head(HairEyeColor,4)
+[1] 32 53 10  3
+> list(HairEyeColor,4)
+[[1]]
+, , Sex = Male
+
+       Eye
+Hair    Brown Blue Hazel Green
+  Black    32   11    10     3
+  Brown    53   50    25    15
+  Red      10   10     7     7
+  Blond     3   30     5     8
+
+, , Sex = Female
+
+       Eye
+Hair    Brown Blue Hazel Green
+  Black    36    9     5     2
+  Brown    66   34    29    14
+  Red      16    7     7     7
+  Blond     4   64     5     8
+[[2]]
+[1] 4
+> otype(HairEyeColor)
+Error in otype(HairEyeColor) : could not find function "otype"
+> typeof(HairEyeColor)
+[1] "double"

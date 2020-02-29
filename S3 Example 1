@@ -28,3 +28,20 @@ Hair    Brown Blue Hazel Green
 Error in otype(HairEyeColor) : could not find function "otype"
 > typeof(HairEyeColor)
 [1] "double"
+attributes(HairEyeColor)
+$dim
+[1] 4 4 2
+
+$dimnames
+$dimnames$Hair
+[1] "Black" "Brown" "Red"   "Blond"
+
+$dimnames$Eye
+[1] "Brown" "Blue"  "Hazel" "Green"
+
+$dimnames$Sex
+[1] "Male"   "Female"
+
+
+$class
+[1] "table"

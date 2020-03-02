@@ -1,0 +1,15 @@
+setClass("Feline", representation(name="character", age="numeric", Breed="character", Color="character"))
+> s4 <- new("Feline", name="Romeo", age=10, Breed="DLH", Color="Black_and_White")
+> s4
+An object of class "Feline"
+Slot "name":
+[1] "Romeo"
+
+Slot "age":
+[1] 10
+
+Slot "Breed":
+[1] "DLH"
+
+Slot "Color":
+[1] "Black_and_White"

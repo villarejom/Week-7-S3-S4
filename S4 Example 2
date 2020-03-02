@@ -1,0 +1,7 @@
+#using the framwork for the data file HairEyeColor, from S# Example 1 make it into an S4 object
+setClass("HairEyeColor", representation(hair="character", Eye="character", Sex="character"))
+> s4 <- new("HairEyeColor", hair="brown", Eye="blue", Sex="Female")
+> otype(s4)
+[1] "S4"
+> typeof(s4)
+[1] "S4"

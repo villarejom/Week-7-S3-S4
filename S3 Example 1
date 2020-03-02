@@ -1,4 +1,5 @@
 install.packages("pryr")
+library(pryr)
 # Load Data File 
 data("HairEyeColor")
 > head(HairEyeColor,4)
@@ -24,6 +25,8 @@ Hair    Brown Blue Hazel Green
   Blond     4   64     5     8
 [[2]]
 [1] 4
+> otype(HairEyeColor)
+[1] "S3"
 > otype(HairEyeColor)
 Error in otype(HairEyeColor) : could not find function "otype"
 > typeof(HairEyeColor)

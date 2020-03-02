@@ -5,3 +5,17 @@ setClass("HairEyeColor", representation(hair="character", Eye="character", Sex="
 [1] "S4"
 > typeof(s4)
 [1] "S4"
+ attributes(s4)
+$hair
+[1] "brown"
+
+$Eye
+[1] "blue"
+
+$Sex
+[1] "Female"
+
+$class
+[1] "HairEyeColor"
+attr(,"package")
+[1] ".GlobalEnv"
